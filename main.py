@@ -75,3 +75,8 @@ for produto in produtos:
     print(produto)
 for p in produtos:
     print(f"ID: {p.id}, Nome: {p.nome}, Preço: {p.preco}, Estoque: {p.estoque}, Ativo: {p.ativo}")
+# coisas para não esquecer:
+# importar os valores padroes do sqlalchemy
+# cada classe vira uma tabela no banco de dados
+# cada objeto vai representar uma linha da tabela
+# os atributos da classe são as colunas da tabela (banco de dados)
